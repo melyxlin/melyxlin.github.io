@@ -1,0 +1,163 @@
+.icons{
+    text-align: center;
+	font-size: 2.5rem;
+	margin-left: 65px;
+}
+
+.icon{
+	color: #FA8072;
+	margin-right: 20px;
+}
+
+.icon:hover{
+	color:#E9967A;
+}
+
+@media (max-width: 750px) {
+  .mobileFont3 {
+  	font-size: 3rem !important;
+  }
+
+  .mobileHide {
+    display: none;
+  }
+}
+
+/*
+@media only screen and (max-width: 601px) {
+  .mobileHide {
+    display: none !important;
+  }
+  .mobileFont3 {
+  	font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 602px){
+  .desktopHide {
+    display: none !important;
+  }
+}*/
+
+a.toplink{
+	text-align:center;
+	word-spacing:.4em;
+	color:#FA8072;
+}
+
+a.toplink:hover{
+	color:#E9967A;
+}
+
+h3.name{
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	font-size: 2rem;
+	float:left;
+	padding-left:30px;
+	margin-top:10px;
+	color:#6D6875;
+	margin-right: 10px;
+}
+
+p.about{
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+	font-size: 2rem !important;
+	color:#FA8072;
+	margin-left:60px !important;
+	margin-top: 0px;
+}
+
+.hello{
+    margin-left:60px !important;
+    text-align: center;
+	font-size: 5rem;
+	margin-top: 20px;
+	color:#6D6875;
+}
+
+.header{
+    margin-left:60px !important;
+    text-align: center;
+	font-size: 3rem;
+	margin-top: 20px;
+    color:#6D6875;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+	position:fixed;
+	top:0;
+	left:0;
+	text-align:center;
+	background-color: white;
+	z-index:1000;
+	width:100%;
+	padding-bottom:10px;
+	padding-top: 10px;
+}
+#nav{
+	text-align:center;
+	float:right;
+	padding-right:30px;
+	padding-top:15px;
+	font-family: 'Montserrat', sans-serif;
+	color:#FA8072;
+}
+
+#home{
+	padding-bottom:200px;
+}
+
+.card{
+    text-align: center;
+}
+
+a.lang-tag{
+    color:#17A589;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.tool-tag{
+    color: #9FA8DA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pin-top {
+    position: relative;
+  }
+  
+  .pin-bottom {
+    position: relative;
+  }
+  
+  .pinned {
+    position: fixed !important;
+    top:200px !important;
+  }
+  .lightpink{
+	background-color: #FA8072;
+}
+
+.lightpink:hover{
+	background-color:#E9967A;
+}
+
+.project{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	color: #FA8072 !important;
+}
+
+.proj-desc{
+    font-family: 'Montserrat', sans-serif;
+	color: #6D6875 !important;
+}
+
+
+.card-content p {
+	font-size: .8rem;
+}
+  
