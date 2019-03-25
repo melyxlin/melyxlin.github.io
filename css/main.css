@@ -79,16 +79,15 @@ p.about{
 }
 
 .header{
-    margin-left:60px !important;
+
     text-align: center;
 	font-size: 3rem;
-	margin-top: 20px;
     color:#6D6875;
     font-family: 'Montserrat', sans-serif;
 }
 
 #header{
-	position:fixed;
+	position: fixed;
 	top:0;
 	left:0;
 	text-align:center;
@@ -146,7 +145,7 @@ a.tool-tag{
 }
 
 .project{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	color: #FA8072 !important;
 }
@@ -160,4 +159,3 @@ a.tool-tag{
 .card-content p {
 	font-size: .8rem;
 }
-  
