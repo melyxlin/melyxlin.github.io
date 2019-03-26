@@ -87,13 +87,6 @@ p.about{
     font-family: 'Montserrat', sans-serif;
 }
 
-.miniheader{
-
-	text-align: center;
-	font-size: 2rem;
-	color:#6D6875;
-	font-family: 'Montserrat', sans-serif;
-}
 
 #header{
 	position: fixed;
@@ -133,18 +126,31 @@ a.tool-tag{
     font-family: 'Montserrat', sans-serif;
 }
 
-.pin-top {
-    position: relative;
-  }
-  
-  .pin-bottom {
-    position: relative;
-  }
-  
-  .pinned {
-    position: fixed !important;
-    top:200px !important;
-  }
+  .pin-top {
+		position: relative;
+	}
+	
+	.pin-bottom {
+		position: relative;
+	}
+	
+	.pinned {
+		position: fixed !important;
+		top:200px !important;
+	}
+	
+	.fade-img {
+	/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+		filter: gray; /* IE5+ */
+		-webkit-filter: saturate(0.5); /* Webkit Nightlies & Chrome Canary */
+		-webkit-transition: all .8s ease-in-out;  
+	}
+	
+	.fade-img:hover {
+		filter: none;
+		-webkit-filter: saturate(1);
+		-webkit-transform: scale(1.01);
+	}
   .salmon{
 	background-color: #FA8072;
 }
@@ -166,7 +172,7 @@ a.tool-tag{
 
 
 .card-content p {
-	font-size: .8rem;
+	font-size: 1rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -182,4 +188,44 @@ a.tool-tag{
     width: 100%;
     color: #FA8072;
     text-align: center;
+}
+
+.computer{
+	margin-left: 60px;
+	width: 50px;
+}
+
+p.job{
+	font-size: 2rem !important;
+	color:#6D6875;
+}
+
+p.date{
+	font-family: 'Montserrat', sans-serif;
+	color: #F3CD86;
+	font-size: .8rem
+}
+
+p.tags{
+	line-height: 2;
+}
+
+ul.desc{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	list-style-type: square !important;
+	color: #6D6875;
+}
+
+li.elem{
+	list-style-type: square !important;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.custom-btn{
+	text-align: center;
+	border-radius: 25px;
+	font-size: 1.15rem;
+	font-family: 'Montserrat', sans-serif;
 }
