@@ -126,18 +126,6 @@ a.tool-tag{
     font-family: 'Montserrat', sans-serif;
 }
 
-  .pin-top {
-		position: relative;
-	}
-	
-	.pin-bottom {
-		position: relative;
-	}
-	
-	.pinned {
-		position: fixed !important;
-		top:200px !important;
-	}
 	
 	.fade-img {
 	/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
