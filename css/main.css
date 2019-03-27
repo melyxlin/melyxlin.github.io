@@ -141,18 +141,8 @@ a.tool-tag{
 }
 
 	
-	.fade-img {
-	/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-		filter: gray; /* IE5+ */
-		-webkit-filter: saturate(0.5); /* Webkit Nightlies & Chrome Canary */
-		-webkit-transition: all .8s ease-in-out;  
-	}
 	
-	.fade-img:hover {
-		filter: none;
-		-webkit-filter: saturate(1);
-		-webkit-transform: scale(1.01);
-	}
+	
   .salmon{
 	background-color: #FA8072;
 }
