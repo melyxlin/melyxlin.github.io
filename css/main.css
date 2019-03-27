@@ -79,12 +79,25 @@ p.about{
 	color:#6D6875;
 }
 
+.computer{
+	margin-left: 165px;
+	width: 105px;
+}
+
 .header{
 
     text-align: center;
 		font-size: 3rem;
     color:#6D6875;
     font-family: 'Montserrat', sans-serif;
+}
+
+p.bio{
+	text-align: center;
+
+	font-size: 1.5rem;
+	font-family: 'Montserrat', sans-serif;
+	color:#FA8072;
 }
 
 
@@ -113,7 +126,8 @@ p.about{
 }
 
 .card{
-    text-align: center;
+		text-align: center;
+		
 }
 
 a.lang-tag{
