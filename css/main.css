@@ -227,6 +227,10 @@ li.elem{
 	letter-spacing: 32px;
 	position: relative;
 }
+.img
+{
+	width: 50%; 
+}
 
 .confetti-piece {
 	position: absolute;
