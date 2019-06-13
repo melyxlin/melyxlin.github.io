@@ -91,6 +91,13 @@ p.about{
     font-family: 'Montserrat', sans-serif;
 }
 
+.semi-header{
+	text-align: center;
+    color:#6D6875;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 p.bio{
 	text-align: center;
 
