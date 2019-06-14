@@ -146,6 +146,10 @@ a.tool-tag{
     font-family: 'Montserrat', sans-serif;
 }
 
+a.soft-tag{
+    color: #68a8ff;
+    font-family: 'Montserrat', sans-serif;
+}
 	
 	
 	
@@ -161,6 +165,50 @@ a.tool-tag{
   font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	color: #FA8072 !important;
+}
+.langcontent
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #17A589;
+}
+
+.libcontent
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #9FA8DA;
+}
+
+.softcontent
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #68a8ff;
+}
+
+.langskills
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #17A589 !important;
+}
+
+.framelibsskills
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #9FA8DA !important;
+}
+
+.softwareskills
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #68a8ff !important;
 }
 
 .proj-desc{
