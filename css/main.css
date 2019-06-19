@@ -78,6 +78,15 @@ p.about{
 	color:#6D6875;
 }
 
+a.nom
+{
+	color: #6D6875;
+}
+
+a.nom:hover{
+	color:#E9967A;
+}
+
 .computer{
 	margin-left: 165px;
 	width: 105px;
@@ -166,50 +175,7 @@ a.soft-tag{
 	font-size: 2rem;
 	color: #FA8072 !important;
 }
-.langcontent
-{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #17A589;
-}
 
-.libcontent
-{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #9FA8DA;
-}
-
-.softcontent
-{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: #68a8ff;
-}
-
-.langskills
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-	text-align: center;
-	color: #17A589 !important;
-}
-
-.framelibsskills
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-	text-align: center;
-	color: #9FA8DA !important;
-}
-
-.softwareskills
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-	text-align: center;
-	color: #68a8ff !important;
-}
 
 .proj-desc{
     font-family: 'Montserrat', sans-serif;
@@ -291,7 +257,7 @@ li.elem{
 	position: absolute;
 	width: 8px;
 	height: 16px;
-	background: #ffd300;
+	background: #FA8072;
 	top: 0;
 	opacity: 0;
 }
@@ -387,7 +353,7 @@ li.elem{
 	animation-duration: 76677689980ms;
 }
 .confetti-piece:nth-child(odd) {
-	background: #17d3ff;
+	background: #9FA8DA;
 }
 .confetti-piece:nth-child(even) {
 	z-index: 1;
@@ -404,7 +370,7 @@ li.elem{
 	animation-delay: 1000ms;
 }
 .confetti-piece:nth-child(4n-7) {
-	background: #ff4e91;
+	background: #17A589;
 }
 @keyframes makeItRain {
 	from {
