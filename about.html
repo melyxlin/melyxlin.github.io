@@ -24,7 +24,9 @@
     <title>Melissa Lin</title>
   </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loader"><iframe id="gif" src="https://giphy.com/embed/hnmOKl3oUd5U4" width="100" frameBorder="0"
+      class="giphy-embed" allowFullScreen></iframe></div>
 
   <div id="header">
     <div class="confetti-piece"></div>
@@ -40,9 +42,9 @@
     <div class="confetti-piece"></div>
     <div class="confetti-piece"></div>
     <div class="confetti-piece"></div>
-    <h3 class="name"> <a class = "nom" href="https://melyxlin.github.io/">Melissa Lin </a></h2>
+    <h3 class="name"> <a class = "nom" href="index.html">Melissa Lin </a></h2>
       <div id="nav">
-        <a class="toplink" href="https://melyxlin.github.io/">&nbsp;home&nbsp;</a>
+        <a class="toplink" href="index.html">&nbsp;home&nbsp;</a>
         <a class="toplink" href="about.html">&nbsp;about&nbsp;</a>
         <a class="toplink" href="projects.html">&nbsp;projects&nbsp;</a>
         <a class="toplink" href="https://drive.google.com/open?id=1RziFaRgwPDEctxjBoGE_Ymtnwdq0SP2A">&nbsp;resume&nbsp;</a>
@@ -50,7 +52,7 @@
       </div>
 
   </div>
-  <div id="about">
+  <div id="about" class="animate-bottom">
     <div class="row" style="margin-top:170px;margin-bottom:20px;">
       <div>
         <div class="confetti-piece"></div>
@@ -154,7 +156,20 @@
 
   </div>
 
-
+  <script>
+      var myVar;
+  
+      function myFunction() {
+        myVar = setTimeout(showPage, 3500);
+      }
+  
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("header").style.display = "block";
+        document.getElementById("about").style.display = "block";
+        document.getElementById("footer").style.display = "block";
+      }
+    </script>
 </body>
 
 <!--JavaScript at end of body for optimized loading-->
