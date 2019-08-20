@@ -47,6 +47,15 @@ a.toplink:hover{
 	color:#E9967A;
 }
 
+a.companylink{
+	color:#9FA8DA;
+}
+
+a.companylink:hover{
+	color:#6D6875;
+
+}
+
 h3.name{
 	font-family: 'Montserrat', sans-serif;
 	text-align:center;
