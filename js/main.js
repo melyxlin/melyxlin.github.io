@@ -7,15 +7,16 @@ function myFunction() {
 function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("header").style.display = "block"
-    if (document.body.classList.contains('aboutpage')){
+    document.getElementById("particles-js").style.display = "block"
+    if (document.body.classList.contains('aboutpage')) {
         document.getElementById("about").style.display = "block"
 
     }
-    else if (document.body.classList.contains('projectspage')){
+    else if (document.body.classList.contains('projectspage')) {
         document.getElementById("projects").style.display = "block"
 
     }
-    else if (document.body.classList.contains('indexpage')){
+    else if (document.body.classList.contains('indexpage')) {
         document.getElementById("landing").style.display = "block"
 
     }
