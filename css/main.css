@@ -137,7 +137,7 @@ p.bio{
 	top:0;
 	left:0;
 	text-align:center;
-	background-color: white;
+	background-color: transparent;
 	z-index:1000;
 	width:100%;
 	padding-bottom:10px;
@@ -325,3 +325,30 @@ li.elem{
 	display: none;
   }
 
+
+  #work
+  {
+	display: none
+  }
+
+#googletitle, #fidelitytitle, #ovttitle{
+	font-family: 'Montserrat', sans-serif;
+	color:#E9967A;
+	font-size: 100px;
+}
+
+
+#googletitle:hover, #fidelitytitle:hover, #ovttitle:hover{
+	color:#FA8072;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#googledescp, #fidelitydescp, #ovtdescp{
+	display: none;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#googletitle:hover + #googledescp, #fidelitytitle:hover + #fidelitydescp, #ovttitle:hover + #ovtdescp{
+    display:block
+}

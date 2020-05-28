@@ -20,6 +20,10 @@ function showPage() {
         document.getElementById("landing").style.display = "block"
 
     }
+    else if (document.body.classList.contains('workpage')) {
+        document.getElementById("work").style.display = "block"
+
+    }
 
     document.getElementById("footer").style.display = "block";
 }
