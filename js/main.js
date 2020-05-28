@@ -26,4 +26,5 @@ function showPage() {
     }
 
     document.getElementById("footer").style.display = "block";
+    document.getElementById("icon-bar").style.display = "block";
 }

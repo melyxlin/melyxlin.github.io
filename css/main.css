@@ -333,7 +333,7 @@ li.elem{
 
 #googletitle, #fidelitytitle, #ovttitle{
 	font-family: 'Montserrat', sans-serif;
-	color:#E9967A;
+	color:#c8665b;
 	font-size: 100px;
 }
 
@@ -352,3 +352,17 @@ li.elem{
 #googletitle:hover + #googledescp, #fidelitytitle:hover + #fidelitydescp, #ovttitle:hover + #ovtdescp{
     display:block
 }
+
+#icon-bar {
+	width: 90px;
+	background-color: transparent;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	display: none;
+  }
+
+  .sticky {
+	position: fixed;
+	width: 90px;
+	bottom:0;
+  }
