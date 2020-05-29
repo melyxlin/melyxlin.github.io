@@ -1,7 +1,9 @@
-.icons{
+html{
+	scroll-behavior: smooth;
+}
+#icons{
     text-align: center;
 	font-size: 2.5rem;
-	margin-left: 65px;
 }
 
 .icon{
@@ -37,13 +39,15 @@
   }
 }*/
 
-a.toplink{
+
+
+.toplink{
 	text-align:center;
 	word-spacing:.4em;
 	color:#FA8072;
 }
 
-a.toplink:hover{
+.toplink:hover{
 	color:#E9967A;
 }
 
@@ -67,22 +71,39 @@ h3.name{
 	margin-right: 10px;
 }
 
-p.about{
+a.companylink{
+	color:#9FA8DA;
+}
+
+a.companylink:hover{
+	color:#6D6875;
+
+}
+
+h3.name{
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	font-size: 2rem;
+	margin-top:10px;
+	color:#6D6875;
+}
+
+#subheading{
 
     font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
-    text-align: center;
+    text-align: left;
 	font-size: 2rem !important;
 	color:#FA8072;
-	margin-left:60px !important;
+	/* margin-left:60px !important; */
 	margin-top: 0px;
-	line-height: 20px
+	/* line-height: 20px */
+	margin-right: 50%;
 }
 
 .hello{
-    margin-left:60px !important;
-    text-align: center;
-	font-size: 5rem;
+    /* margin-left:60px !important; */
+    text-align: left;
+	font-size: 3rem;
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 20px;
 	color:#6D6875;
@@ -101,11 +122,9 @@ a.nom:hover{
 	margin-left: 165px;
 	width: 105px;
 }
-
 .header{
 
-    text-align: center;
-		font-size: 3rem;
+		font-size: 4.5rem;
     color:#6D6875;
     font-family: 'Montserrat', sans-serif;
 }
@@ -120,15 +139,32 @@ a.nom:hover{
 
 #landing
 {
-	margin-bottom:240px; display: none
+	text-align: left;
+	margin-bottom:280px; 
+	display: none;
+	margin-left: 200px;
+	margin-right: 200px;;
 }
 
-p.bio{
-	text-align: center;
+#bio, .chat{
+	text-align: left;
 
 	font-size: 1.5rem;
 	font-family: 'Montserrat', sans-serif;
 	color:#FA8072;
+}
+
+.email{
+	color:#6D6875
+}
+.email:hover
+{
+	color:#E9967A;
+}
+
+.chat{
+	margin-left:200px;
+	margin-right: 200px;
 }
 
 
@@ -150,8 +186,11 @@ p.bio{
 	padding-right:30px;
 	padding-top:15px;
 	font-family: 'Montserrat', sans-serif;
-	color:#FA8072;
+	background: transparent;
+	box-shadow: none;
 }
+
+
 
 #home{
 	padding-bottom:200px;
@@ -313,9 +352,17 @@ li.elem{
 	margin-left: 48%;
 }
 
-#about, #projects
+#about
 {
-	display: none
+	display: none;
+	margin-left: 200px;
+	margin-right: 250px;
+}
+
+#projects, #contact
+{
+	display:none;
+	width:100%
 }
 
 #particles-js {
@@ -365,4 +412,41 @@ li.elem{
 	position: fixed;
 	width: 90px;
 	bottom:0;
+  }
+
+  
+  span.wave {
+	animation-name: wave-animation;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	transform-origin: 70% 70%;
+	display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+	  0% { transform: rotate(  0.0deg) }
+	 10% { transform: rotate(-10.0deg) }
+	 20% { transform: rotate( 12.0deg) }
+	 30% { transform: rotate(-10.0deg) }
+	 40% { transform: rotate(  9.0deg) }
+	 50% { transform: rotate(  0.0deg) }
+	100% { transform: rotate(  0.0deg) }
+  }
+
+  #scrolldown
+  {
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; 
+	font-size: 30px;
+	display: none;
+  }
+
+  #scrollup
+  {
+	position: fixed; /* Fixed/sticky position */
+	bottom: 50px; /* Place the button at the bottom of the page */
+	right: 30px; 
+	font-size: 30px;
+	display: none;
   }
