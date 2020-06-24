@@ -6,73 +6,324 @@
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Overpass|Overpass+Mono" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
-  integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-<link rel="stylesheet"
-  href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
 
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <title>Melissa Lin</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>Melissa Lin</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset=“UTF-8”>
 
-  <title>Melissa Lin</title>
+    <head>
+        <title>Melissa Lin</title>
+    </head>
 
-</head>
+    <body class="projectspage" onload="myFunction()">
+        <div id="loader"><iframe id="gif" src="https://giphy.com/embed/hnmOKl3oUd5U4" width="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+        <div id="top">
+            <h3>ml</h3>
+        </div>
 
-<body class="indexpage" onload="myFunction()">
-  <div id="loader"><iframe id="gif" src="https://giphy.com/embed/hnmOKl3oUd5U4" width="100" frameBorder="0"
-      class="giphy-embed" allowFullScreen></iframe></div>
-  <div id="particles-js"></div>
-  <div id="header">
-    <h3 class="name"> <a class="nom" href="https://melyxlin.github.io/">Melissa Lin </a></h2>
-      <div id="nav">
-        <a class="toplink" href="https://melyxlin.github.io/">&nbsp;home&nbsp;</a>
-        <a class="toplink" href="https://melyxlin.github.io/about">&nbsp;about&nbsp;</a>
-        <a class="toplink" href="https://melyxlin.github.io/projects">&nbsp;projects&nbsp;</a>
-        <a class="toplink"
-          href="https://drive.google.com/open?id=1RziFaRgwPDEctxjBoGE_Ymtnwdq0SP2A">&nbsp;resume&nbsp;</a>
+        <div id="header">
+            <div class="col hide-on-small-only m3 l2">
+                <ul class="section table-of-contents">
+                    <li><a href="#landing">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="https://drive.google.com/open?id=1RziFaRgwPDEctxjBoGE_Ymtnwdq0SP2A" class="resume">resume</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+        <div id="landing" class="section scrollspy">
+            <div class="row" style="margin-top:250px;margin-bottom:20px;">
+                <div>
+                    <h2 class="hello">Hi! I'm Melissa! <span class="wave">&#x1F44b;</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <p class="flow-text" id="subheading"></p>
+            </div>
+        </div>
+
+        <div id="about" class="section scrollspy">
+
+            <div>
+                <h2 class="header" style="font-size: 4.5rem;">Hello World!</h2>
+            </div>
+            <p class="flow-text" id="bio">
+                Hi! I'm Melissa! I am a junior majoring in CS at <a class="companylink" href="http://www.bu.edu">Boston
+        University</a>. </p>
+            <p class="flow-text" id="bio"> This summer, I will be interning at <a class="companylink" href="https://www.google.com/">Google</a> as STEP intern. Previously, I interned at <a class="companylink" href="https://www.fidelity.com/">Fidelity Investments</a> as a Software Engineer
+                Intern where I developed an web application for the QA department and was a technical intern at <a class="companylink" href="http://www.openvisiontech.com/#">Open
+        Vision Technology</a> doing work with semiconductor handling aligners.
+            </p>
+            <p class="flow-text" id="bio">During the school year, I am a course assistant for <a class="companylink" href="http://www.bu.edu/cs/">BU&#39; Computer Science Department</a>, where I get to share my passion and enthusiasm for computing with fellow students. I also play
+                an activate roles in organizing several hackathons around Boston, one being <a class="companylink" href="https://bostonhacks.io/">BostonHacks</a>, BU&#39;premier hackathon and another being <a class="companylink" href="https://boston.techtogether.io/">TechTogether Boston</a>,
+                the largest female, femme, and nonbinary hackathon in Boston.</p>
+
+            <p class="flow-text" id="bio"> When I am not programming, you can find me cooking, eating noodles, reading, cycling, crocheting, or practicing the piano. </p>
+        </div>
 
 
-      </div>
 
-  </div>
+        <div id="projects" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div>
+                    <h2 class="header" style="margin-left: 200px;">Projects</h2>
+                </div>
+            </div>
 
-  <div id="landing" class="animate-bottom">
-    <div class="row" style="margin-top:250px;margin-bottom:20px;">
-      <div>
-        <h2 class="hello">Hi! I'm Melissa!</h2>
-      </div>
-    </div>
-    <div class="row">
-      <p class="about">Welcome to my website!</p>
-      <p class="icons">
-        <a href="https://github.com/melyxlin" class="icon"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/melyxlin/" class="icon"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:melyxlin@gmail.com" class="icon"><i class="fas fa-envelope-square"></i></a>
-      </p>
-    </div>
-  </div>
-  </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s12 m12 l4">
 
-  <div id="footer" style="background-color:white; margin-top: 400px">
-    <p><a style="color:#FA8072; text-align:center">Built with <span style="color: red">❤</span> by Melissa Lin </a> </p>
-  </div>
+                    <div class="card-panel">
+                        <div class="card-content">
+                            <span class="card-title project">GoBiz</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/MohUddin/GoBiz_BU" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a>
+                            <p class="proj-desc ">An Android application developed with a team of five students as a educational platform that teaches the basics of entrpreneurship to students in Southeast Asia, with user profiles keeping track of progress and a forum in which
+                                students can communicate with each other.</p>
+                        </div>
+                        <p class="tags">
+                            <a class="lang-tag">&nbsp;&nbsp;Java&nbsp;&nbsp;</a>
+                            <a class="soft-tag">&nbsp;&nbsp;Android Studio&nbsp;&nbsp;</a>
+                        </p>
+                    </div>
+                </div>
 
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="js/particlesmain.js"></script>
+                <div class="col s12 m12 l4">
+                    <div class="card-panel">
+                        <div class="card-content">
+                            <span class="card-title project">Life of Freedom Center Visualizations</span>
+                            <a class="btn-floating waves-effect waves-light salmon" href="https://github.com/Hack4Impact-Boston-University/lof-visualization/branches" style="float:right"><i class="fab fa-github"></i></a>
+                            <p class="proj-desc ">Custom Visualizations created using CiviCRM and SQL for a nonprofit that assist grass roots organizations and non-profits involved in anti-trafficking to manage their case management, day-time outreach to businesses, night
+                                time outreach and internet and phone outreach. </p>
+                        </div>
+                        <p class="tags">
+                            <a class="lang-tag">&nbsp;&nbsp;SQL&nbsp;&nbsp;</a>
+                            <a class="lang-tag">&nbsp;&nbsp;JavaScript&nbsp;&nbsp;</a>
+                            <a class="lang-tag">&nbsp;&nbsp;PHP&nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;Drupal&nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;CiviCrm&nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;WampServer&nbsp;&nbsp;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s12 m12 l4">
+                    <div class="card-panel">
+                        <div class="card-content">
+                            <span class="card-title project">Artefatto</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/Bostonhacks/artefatto" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a>
+                            <p class="proj-desc ">A website built for BostonHacks. It displays data from past events, the history of BostonHacks, and a list of the current organizers on the team.</p>
+                        </div>
+                        <p class="tags">
+                            <a class="lang-tag">&nbsp;&nbsp;HTML&nbsp;&nbsp;</a>
+                            <a class="lang-tag">&nbsp;&nbsp;CSS&nbsp;&nbsp;</a>
+                            <a class="lang-tag">&nbsp;&nbsp;JavScript&nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card-panel">
+                        <div class="card-content">
+                            <span class="card-title project">1984 Graphics</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/rajshritotla/1984-generative-graphics" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a>
+                            <p class="proj-desc ">Developed application for theatre productions in which allowed non-technical users to create graphics that could interact in real-time with actors in a theatre production.</p>
+                        </div>
+                        <p class="tags">
+                            <a class="lang-tag">&nbsp;&nbsp;Processing&nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;OpenCV&nbsp;&nbsp;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s12 m12 l4">
+                    <div class="card-panel">
+                        <div class="card-content">
+                            <span class="card-title project">Avatar API</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/melyxlin/avatar-api" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a> <a class="btn-floating waves-effect waves-light salmon" href="http://avatarapi.herokuapp.com/" style="float:right;margin-right: 10px"><i
+                class="fas fa-globe"></i></a>
+                            <p class="proj-desc ">An API using the Flask Framwork that holds quantified and structured data from the universe of Avatar the Last Airbender and Legend of Korra.
+                            </p>
+                        </div>
+                        <p class="tags">
+                            <a class="lang-tag">&nbsp;&nbsp;HTML&nbsp;&nbsp;</a>
+                            <a class="lang-tag">&nbsp;&nbsp;CSS&nbsp;&nbsp;</a>
+                            <a class="lang-tag">&nbsp;&nbsp;Python&nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;Flask &nbsp;&nbsp;</a>
+                            <a class="tool-tag">&nbsp;&nbsp;Heroku&nbsp;&nbsp;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</body>
+        <div id="work" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <h2 class="header" style="margin-left: 200px;">Work</h2>
+            </div>
 
-<!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="js/materialize.min.js"></script>
+            <div>
+                <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s8">
+                        <ul class="tabs">
+                            <li class="tab col s4"><a href="#test1" style="font-family: 'Montserrat', sans-serif;">Google</a></li>
+                            <li class="tab col s4"><a class="active" href="#test2" style="font-family: 'Montserrat', sans-serif;">Fidelity Investments</a></li>
+                            <li class="tab col s4"><a href="#test4" style="font-family: 'Montserrat', sans-serif;">Open Vision
+                Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4"> </div>
+                    <div id="test4" class="col s4">
+                        <div class="card-panel">
+                            <div class="card-content">
+                                <span class="card-title project">Open Vision Technology, <i>Technical Intern</i></span>
+                                <p class="date"><b>June 2018 - August 2018</b></p>
+                                <ul class="desc">
+                                    <li class="elem">Developed and reviewed software written in C++ for semiconductor wafer handling demo robots to use at various client meetings and showcases using C++</li>
+                                    <li class="elem">Aided in the development of the company's internal website using HTML/Bootstrap </li>
+                                    <li class="elem"> Demoed robots to potential clients</li>
+                                    <li class="elem"> Created documentations with instructions for various aligners and wafer handling robots </li>
 
+
+                                </ul>
+                                </p>
+                            </div>
+                            <p class="tags">
+                                <a class="lang-tag">&nbsp;&nbsp;C/C++&nbsp;&nbsp;</a>
+                                <a class="lang-tag">&nbsp;&nbsp;HTML/CSS&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Unix/Linux&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Vim&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Emacs&nbsp;&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="test1" class="col s4">
+                            <div class="card-panel">
+                                <div class="card-content">
+                                    <span class="card-title project">Google, <i>STEP Intern</i></span>
+                                    <p class="date"><b>May 2020 - August 2020</b></p>
+                                    <ul class="desc">
+                                        <li class="elem">TBD</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <p class="tags">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4"></div>
+                    <div id="test2" class="col s4">
+                        <div class="card-panel">
+                            <div class="card-content">
+                                <span class="card-title project">Fidelity Investments, <i>SWE Intern</i></span>
+                                <p class="date"><b>May 2019 - August 2019</b></p>
+                                <ul class="desc">
+                                    <li class="elem">Built a testreporting application for Fidelity&#39;s QA department utilizing Java Spring and SQL servers forthe backend and Angularforthe frontend</li>
+                                    <li class="elem">Developed tools and frameworks in Java for Fidelity&#39;s electronic trading platform to facilitate automated testing,reducing the time to report bugs by 20% </li>
+                                </ul>
+                                </p>
+                            </div>
+                            <p class="tags">
+                                <a class="lang-tag">&nbsp;&nbsp;Java&nbsp;&nbsp;</a>
+                                <a class="lang-tag">&nbsp;&nbsp;HTML/CSS&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Jenkins&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Cucumber&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Sellenium&nbsp;&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div id="contact" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div>
+                    <h2 class="header" style="margin-left: 200px;">Contact</h2>
+                </div>
+                <p class="chat"> Whether you have a question or want to talk about noodles, I'd be more than happy to chat with you!
+                </p>
+                <p class="chat" style="text-align: center;"><span class="wave">&#x1F449;</span> <a href="mailto:melissayxlin@gmail.com" class="email">&nbsp;Say Hello&nbsp;</a><span class="wave">&#x1F448;</span></p>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <p><a style="color: #FA8072; text-align:center">Built with &#x2764; by Melissa Lin </a> </p>
+        </div>
+        </div>
+
+        <div id="social">
+            <div class="fixed-action-btn">
+                <a><img src="images/apple-touch-icon.png" style="width: 60px; border-radius: 50%;"></a>
+                </a>
+                <ul>
+                    <li><a class="btn-floating red accent-1" href="https://github.com/melyxlin" class="material-icons"><i
+            class="fab fa-github"></i></a></li>
+                    <li><a class="btn-floating red accent-1" href="https://www.linkedin.com/in/melyxlin/"><i
+            class="fab fa-linkedin-in"></i></a></li>
+                    <li><a class="btn-floating red accent-1" href="https://twitter.com/momolin78"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <p style="color: black; bottom: 0; margin-left: 89%; position: fixed; font-family: 'Montserrat', sans-serif; font-size: 0.7rem;">hover over me!</p>
+        </div>
+
+        <script src="js/main.js"></script>
+
+        <!-- Script to make navbar stick -->
+        <script>
+            $(document).ready(function() {
+                $('.scrollspy').scrollSpy();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.fixed-action-btn').floatingActionButton();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.tabs').tabs();
+            });
+        </script>
+
+    </body>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
 
 </html>
