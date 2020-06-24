@@ -10,6 +10,14 @@ html {
     display: none;
 }
 
+a.resume {
+    color: #FA8072
+}
+
+a.resume:hover {
+    color: #E9967A;
+}
+
 #icons {
     text-align: center;
     font-size: 2.5rem;
