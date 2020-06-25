@@ -4,9 +4,9 @@ html {
 
 #top {
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
-    color: #6D6875;
+    color: #8a8593;
     display: none;
 }
 
@@ -23,8 +23,16 @@ a.resume:hover {
     font-size: 2.5rem;
 }
 
+.icon {
+    color: #FA8072;
+}
+
+.icon:hover {
+    color: #E9967A;
+}
+
 .table-of-contents a:hover {
-    color: #a8a8a8;
+    color: #8a8593;
     padding-left: 15px;
     border-left: 1px solid #ff8a80;
 }
@@ -35,61 +43,20 @@ a.resume:hover {
     border-left: 2px solid #fa8072;
 }
 
-.icon {
-    color: #FA8072;
-}
-
-.icon:hover {
-    color: #E9967A;
-}
-
-.toplink {
-    text-align: center;
-    word-spacing: .4em;
-    color: #FA8072;
-}
-
-.pk {
-    color: #E9967A;
-}
-
-.toplink:hover {
-    color: #E9967A;
-}
-
-a.companylink {
-    color: #9FA8DA;
-}
-
-a.companylink:hover {
-    color: #6D6875;
-}
-
-h3.name {
+.brand-logo {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 2rem;
-    float: left;
-    padding-left: 30px;
-    margin-top: 10px;
-    color: #6D6875;
-    margin-right: 10px;
-}
-
-a.companylink {
-    color: #9FA8DA;
-}
-
-a.companylink:hover {
-    color: #6D6875;
-}
-
-h3.name {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
     font-size: 2rem;
     margin-top: 10px;
-    color: #6D6875;
+    color: #8a8593;
+}
+
+.hello {
+    /* margin-left:60px !important; */
+    text-align: left;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    color: #8a8593;
 }
 
 #subheading {
@@ -103,37 +70,17 @@ h3.name {
     margin-right: 30%;
 }
 
-.hello {
-    /* margin-left:60px !important; */
-    text-align: left;
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
-    color: #6D6875;
+a.companylink {
+    color: #9FA8DA;
 }
 
-a.nom {
-    color: #6D6875;
-}
-
-a.nom:hover {
-    color: #E9967A;
-}
-
-.computer {
-    margin-left: 165px;
-    width: 105px;
+a.companylink:hover {
+    color: #8a8593;
 }
 
 .header {
     font-size: 4.5rem;
-    color: #6D6875;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.semi-header {
-    text-align: center;
-    color: #6D6875;
+    color: #8a8593;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -141,8 +88,8 @@ a.nom:hover {
     text-align: left;
     margin-bottom: 280px;
     display: none;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     ;
     position: relative;
     -webkit-animation-name: animatebottom;
@@ -160,28 +107,19 @@ a.nom:hover {
 }
 
 .email {
-    color: #6D6875
+    color: #8a8593
 }
 
 .email:hover {
     color: #E9967A;
 }
 
-.chat {
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
 #header {
     position: fixed;
     top: 250px;
     margin-left: 50px;
-    /* text-align:center; */
     background-color: transparent;
     z-index: 1000;
-    /* width:100%; */
-    /* padding-bottom:10px;
-	padding-top: 10px; */
     font-family: 'Montserrat', sans-serif;
     display: none
 }
@@ -235,7 +173,7 @@ a.soft-tag {
 
 .proj-desc {
     font-family: 'Montserrat', sans-serif;
-    color: #6D6875 !important;
+    color: #8a8593 !important;
 }
 
 .card-content p {
@@ -258,14 +196,9 @@ a.soft-tag {
     display: none
 }
 
-.computer {
-    margin-left: 60px;
-    width: 50px;
-}
-
 p.job {
     font-size: 2rem !important;
-    color: #6D6875;
+    color: #8a8593;
 }
 
 p.date {
@@ -282,7 +215,7 @@ ul.desc {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     list-style-type: square !important;
-    color: #6D6875;
+    color: #8a8593;
 }
 
 li.elem {
@@ -308,9 +241,6 @@ li.elem {
 .img {
     width: 50%;
 }
-
-
-/* Add animation to "page content" */
 
 .animate-bottom {
     position: relative;
@@ -346,14 +276,8 @@ li.elem {
     margin-top: 20%
 }
 
-#gif {
-    margin-left: 48%;
-}
-
 #about {
     display: none;
-    margin-left: 200px;
-    margin-right: 250px;
     position: relative;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
@@ -370,13 +294,6 @@ li.elem {
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
     animation-duration: 1s
-}
-
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
 }
 
 #work {
@@ -405,35 +322,10 @@ li.elem {
     text-align: right;
 }
 
-
-/* #googletitle:hover, #fidelitytitle:hover, #ovttitle:hover{
-	color:#FA8072;
-	font-family: 'Montserrat', sans-serif;
-} */
-
 #descp {
     display: none;
     float: left;
     font-family: 'Montserrat', sans-serif;
-}
-
-
-/* #googletitle:hover + #googledescp, #fidelitytitle:hover + #fidelitydescp, #ovttitle:hover + #ovtdescp{
-    display:block
-} */
-
-#icon-bar {
-    width: 90px;
-    background-color: transparent;
-    padding-left: 16px;
-    padding-bottom: 16px;
-    display: none;
-}
-
-.sticky {
-    position: fixed;
-    width: 90px;
-    bottom: 0;
 }
 
 span.wave {
@@ -468,34 +360,67 @@ span.wave {
     }
 }
 
-#scrolldown {
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 20px;
-    /* Place the button at the bottom of the page */
-    right: 30px;
-    font-size: 30px;
-    display: none;
-}
-
-#scrollup {
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 50px;
-    /* Place the button at the bottom of the page */
-    right: 30px;
-    font-size: 30px;
-    display: none;
-}
-
 #social {
     display: none;
 }
 
-.me {
-    background: url('images/melissa.ico');
-    height: 20px;
-    width: 20px;
-    display: block;
-    /* Other styles here */
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 138, 128, 0.7);
+        ;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 138, 128, 0)
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 138, 128, 0)
+    }
 }
+
+.moi {
+    box-shadow: 0 0 0 0 rgba(255, 138, 128, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+.moi:hover {
+    animation: none;
+}
+
+.dark-mode {
+    background-color: #333333;
+}
+
+.card-panel,
+.tabs {
+    background-color: transparent;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #FA8072
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #FA8072;
+}
+
+.switch label .lever {
+    background-color: #8a8593;
+}
+
+#test {
+    display: none;
+}
+
+
+/* .collapsible-header {
+    background-color: transparent;
+} */
+
+
+/* .collapsible-body {
+    border-bottom: transparent;
+} */

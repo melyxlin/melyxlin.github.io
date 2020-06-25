@@ -9,6 +9,7 @@ function myFunction() {
 function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("header").style.display = "block"
+    document.getElementById("test").style.display = "block"
     document.getElementById("projects").style.display = "block"
     document.getElementById("landing").style.display = "block"
     document.getElementById("about").style.display = "block"
@@ -18,7 +19,6 @@ function showPage() {
 
     document.getElementById("footer").style.display = "block";
     document.getElementById("social").style.display = "block";
-    document.getElementById("top").style.display = "block";
 
 }
 
@@ -33,3 +33,8 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+
+function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }

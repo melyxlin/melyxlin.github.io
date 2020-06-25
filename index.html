@@ -27,18 +27,32 @@
     </head>
 
     <body class="projectspage" onload="myFunction()">
-        <div id="loader"><iframe id="gif" src="https://giphy.com/embed/hnmOKl3oUd5U4" width="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-        <div id="top">
-            <h3>ml</h3>
+        <nav style="background-color: transparent; box-shadow: none; padding-left: 1%;padding-right: 1%;">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo" id="test" style="color: #8a8593;">ml</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <div class="nav-wrapper">
+                        <div class="switch">
+                            <label>
+                                <i class="fas fa-lightbulb" style="color: #8a8593;"></i>
+                              <input type="checkbox" onclick="toggleDarkMode()">
+                              <span class="lever"></span>
+                              <i class="far fa-lightbulb" style="color: #8a8593;"></i>
+                            </label>
+                        </div>
+                    </div>
+                </ul>
+        </nav>
         </div>
+        <div id="loader" class="center-align"><iframe id="gif" src="https://giphy.com/embed/hnmOKl3oUd5U4" width="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
         <div id="header">
-            <div class="col hide-on-small-only m3 l2">
+            <div class="col hide-on-med-and-down m3 l2">
                 <ul class="section table-of-contents">
                     <li><a href="#landing">home</a></li>
                     <li><a href="#about">about</a></li>
-                    <li><a href="#projects">projects</a></li>
                     <li><a href="#work">work</a></li>
+                    <li><a href="#projects">projects</a></li>
                     <li><a href="#contact">contact</a></li>
                     <li><a href="https://drive.google.com/open?id=1RziFaRgwPDEctxjBoGE_Ymtnwdq0SP2A" class="resume">resume</a></li>
                 </ul>
@@ -50,40 +64,128 @@
 
         <div id="landing" class="section scrollspy">
             <div class="row" style="margin-top:250px;margin-bottom:20px;">
-                <div>
+                <div class="container">
                     <h2 class="hello">Hi! I'm Melissa! <span class="wave">&#x1F44b;</span></h2>
                 </div>
             </div>
             <div class="row">
-                <p class="flow-text" id="subheading"></p>
+                <div class="container">
+                    <p class="flow-text" id="subheading"></p>
+                </div>
             </div>
         </div>
 
         <div id="about" class="section scrollspy">
 
-            <div>
-                <h2 class="header" style="font-size: 4.5rem;">Hello World!</h2>
+            <div class="row">
+                <div class="container">
+                    <h2 class="header" style="font-size: 4.5rem;">Hello World!</h2>
+                </div>
             </div>
-            <p class="flow-text" id="bio">
-                Hi! I'm Melissa! I am a junior majoring in CS at <a class="companylink" href="http://www.bu.edu">Boston
+            <div class="row">
+                <div class="container">
+                    <p class="flow-text" id="bio">
+                        Hi! I'm Melissa! I am a junior majoring in CS at <a class="companylink" href="http://www.bu.edu">Boston
         University</a>. </p>
-            <p class="flow-text" id="bio"> This summer, I will be interning at <a class="companylink" href="https://www.google.com/">Google</a> as STEP intern. Previously, I interned at <a class="companylink" href="https://www.fidelity.com/">Fidelity Investments</a> as a Software Engineer
-                Intern where I developed an web application for the QA department and was a technical intern at <a class="companylink" href="http://www.openvisiontech.com/#">Open
+                    <p class="flow-text" id="bio"> This summer, I will be interning at <a class="companylink" href="https://www.google.com/">Google</a> as STEP intern. Previously, I interned at <a class="companylink" href="https://www.fidelity.com/">Fidelity Investments</a> as a Software
+                        Engineer Intern where I developed an web application for the QA department and was a technical intern at <a class="companylink" href="http://www.openvisiontech.com/#">Open
         Vision Technology</a> doing work with semiconductor handling aligners.
-            </p>
-            <p class="flow-text" id="bio">During the school year, I am a course assistant for <a class="companylink" href="http://www.bu.edu/cs/">BU&#39; Computer Science Department</a>, where I get to share my passion and enthusiasm for computing with fellow students. I also play
-                an activate roles in organizing several hackathons around Boston, one being <a class="companylink" href="https://bostonhacks.io/">BostonHacks</a>, BU&#39;premier hackathon and another being <a class="companylink" href="https://boston.techtogether.io/">TechTogether Boston</a>,
-                the largest female, femme, and nonbinary hackathon in Boston.</p>
+                    </p>
+                    <p class="flow-text" id="bio">During the school year, I am a course assistant for <a class="companylink" href="http://www.bu.edu/cs/">BU&#39; Computer Science Department</a>, where I get to share my passion and enthusiasm for computing with fellow students. I also
+                        play an activate roles in organizing several hackathons around Boston, one being <a class="companylink" href="https://bostonhacks.io/">BostonHacks</a>, BU&#39;premier hackathon and another being <a class="companylink" href="https://boston.techtogether.io/">TechTogether Boston</a>,
+                        the largest female, femme, and nonbinary hackathon in Boston.</p>
 
-            <p class="flow-text" id="bio"> When I am not programming, you can find me cooking, eating noodles, reading, cycling, crocheting, or practicing the piano. </p>
+                    <p class="flow-text" id="bio"> When I am not programming, you can find me cooking, eating noodles, reading, cycling, crocheting, or practicing the piano. </p>
+                </div>
+            </div>
         </div>
 
 
+        <div id="work" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div class="container">
+                    <h2 class="header">Work</h2>
+                </div>
+            </div>
 
+            <div>
+                <div class="row">
+                    <div class="container">
+                        <div class="col s12">
+                            <ul class="tabs">
+                                <li class="tab col s4"><a class="active" href="#test1">Google</a></li>
+                                <li class="tab col s4"><a href="#test2">Fidelity Investments</a></li>
+                                <li class="tab col s4"><a href="#test4">Open Vision Technology</a></li>
+                            </ul>
+                        </div>
+                        <div id="test1" class="col s12 m12">
+                            <div class="card-panel">
+                                <div class="card-content">
+                                    <span class="card-title project">Google, <i>STEP Intern</i></span>
+                                    <p class="date"><b>May 2020 - August 2020</b></p>
+                                    <ul class="desc">
+                                        <li class="elem">TBD</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <p class="tags">
+                                </p>
+                            </div>
+                        </div>
+                        <div id="test2" class="col s12">
+                            <div class="card-panel">
+                                <div class="card-content">
+                                    <span class="card-title project">Fidelity Investments, <i>SWE Intern</i></span>
+                                    <p class="date"><b>May 2019 - August 2019</b></p>
+                                    <ul class="desc">
+                                        <li class="elem">Built a testreporting application for Fidelity&#39;s QA department utilizing Java Spring and SQL servers forthe backend and Angularforthe frontend</li>
+                                        <li class="elem">Developed tools and frameworks in Java for Fidelity&#39;s electronic trading platform to facilitate automated testing,reducing the time to report bugs by 20% </li>
+                                    </ul>
+                                </div>
+                                <p class="tags">
+                                    <a class="lang-tag">&nbsp;&nbsp;Java&nbsp;&nbsp;</a>
+                                    <a class="lang-tag">&nbsp;&nbsp;HTML/CSS&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Jenkins&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Cucumber&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Sellenium&nbsp;&nbsp;</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="test4" class="col s12">
+                            <div class="card-panel">
+                                <div class="card-content">
+                                    <span class="card-title project">Open Vision Technology, <i>Technical Intern</i></span>
+                                    <p class="date"><b>June 2018 - August 2018</b></p>
+                                    <ul class="desc">
+                                        <li class="elem">Developed and reviewed software written in C++ for semiconductor wafer handling demo robots to use at various client meetings and showcases using C++</li>
+                                        <li class="elem">Aided in the development of the company's internal website using HTML/Bootstrap </li>
+                                        <li class="elem"> Demoed robots to potential clients</li>
+                                        <li class="elem"> Created documentations with instructions for various aligners and wafer handling robots </li>
+
+
+                                    </ul>
+                                    </p>
+                                </div>
+                                <p class="tags">
+                                    <a class="lang-tag">&nbsp;&nbsp;C/C++&nbsp;&nbsp;</a>
+                                    <a class="lang-tag">&nbsp;&nbsp;HTML/CSS&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Unix/Linux&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Vim&nbsp;&nbsp;</a>
+                                    <a class="tool-tag">&nbsp;&nbsp;Emacs&nbsp;&nbsp;</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
         <div id="projects" class="section scrollspy">
             <div class="row" style="margin-top:170px;margin-bottom:20px;">
-                <div>
-                    <h2 class="header" style="margin-left: 200px;">Projects</h2>
+                <div class="container">
+                    <h2 class="header">Projects</h2>
                 </div>
             </div>
 
@@ -178,115 +280,41 @@
             </div>
         </div>
 
-        <div id="work" class="section scrollspy">
-            <div class="row" style="margin-top:170px;margin-bottom:20px;">
-                <h2 class="header" style="margin-left: 200px;">Work</h2>
-            </div>
-
-            <div>
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s8">
-                        <ul class="tabs">
-                            <li class="tab col s4"><a href="#test1" style="font-family: 'Montserrat', sans-serif;">Google</a></li>
-                            <li class="tab col s4"><a class="active" href="#test2" style="font-family: 'Montserrat', sans-serif;">Fidelity Investments</a></li>
-                            <li class="tab col s4"><a href="#test4" style="font-family: 'Montserrat', sans-serif;">Open Vision
-                Technology</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4"> </div>
-                    <div id="test4" class="col s4">
-                        <div class="card-panel">
-                            <div class="card-content">
-                                <span class="card-title project">Open Vision Technology, <i>Technical Intern</i></span>
-                                <p class="date"><b>June 2018 - August 2018</b></p>
-                                <ul class="desc">
-                                    <li class="elem">Developed and reviewed software written in C++ for semiconductor wafer handling demo robots to use at various client meetings and showcases using C++</li>
-                                    <li class="elem">Aided in the development of the company's internal website using HTML/Bootstrap </li>
-                                    <li class="elem"> Demoed robots to potential clients</li>
-                                    <li class="elem"> Created documentations with instructions for various aligners and wafer handling robots </li>
-
-
-                                </ul>
-                                </p>
-                            </div>
-                            <p class="tags">
-                                <a class="lang-tag">&nbsp;&nbsp;C/C++&nbsp;&nbsp;</a>
-                                <a class="lang-tag">&nbsp;&nbsp;HTML/CSS&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Unix/Linux&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Vim&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Emacs&nbsp;&nbsp;</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div id="test1" class="col s4">
-                            <div class="card-panel">
-                                <div class="card-content">
-                                    <span class="card-title project">Google, <i>STEP Intern</i></span>
-                                    <p class="date"><b>May 2020 - August 2020</b></p>
-                                    <ul class="desc">
-                                        <li class="elem">TBD</li>
-                                    </ul>
-                                    </p>
-                                </div>
-                                <p class="tags">
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4"></div>
-                    <div id="test2" class="col s4">
-                        <div class="card-panel">
-                            <div class="card-content">
-                                <span class="card-title project">Fidelity Investments, <i>SWE Intern</i></span>
-                                <p class="date"><b>May 2019 - August 2019</b></p>
-                                <ul class="desc">
-                                    <li class="elem">Built a testreporting application for Fidelity&#39;s QA department utilizing Java Spring and SQL servers forthe backend and Angularforthe frontend</li>
-                                    <li class="elem">Developed tools and frameworks in Java for Fidelity&#39;s electronic trading platform to facilitate automated testing,reducing the time to report bugs by 20% </li>
-                                </ul>
-                                </p>
-                            </div>
-                            <p class="tags">
-                                <a class="lang-tag">&nbsp;&nbsp;Java&nbsp;&nbsp;</a>
-                                <a class="lang-tag">&nbsp;&nbsp;HTML/CSS&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Jenkins&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Cucumber&nbsp;&nbsp;</a>
-                                <a class="tool-tag">&nbsp;&nbsp;Sellenium&nbsp;&nbsp;</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        </div>
-
         <div id="contact" class="section scrollspy">
             <div class="row" style="margin-top:170px;margin-bottom:20px;">
-                <div>
-                    <h2 class="header" style="margin-left: 200px;">Contact</h2>
+                <div class="container">
+                    <h2 class="header">Contact</h2>
                 </div>
-                <p class="chat"> Whether you have a question or want to talk about noodles, I'd be more than happy to chat with you!
-                </p>
-                <p class="chat" style="text-align: center;"><span class="wave">&#x1F449;</span> <a href="mailto:melissayxlin@gmail.com" class="email">&nbsp;Say Hello&nbsp;</a><span class="wave">&#x1F448;</span></p>
             </div>
+            <div class="row">
+                <div class="container">
+                    <p class="chat"> Whether you have a question or want to talk about noodles, I'd be more than happy to chat with you!
+                    </p>
+                    <p class="chat" style="text-align: center;"><span class="wave">&#x1F449;</span> <a href="mailto:melissayxlin@gmail.com" class="email">&nbsp;Say Hello&nbsp;</a><span class="wave">&#x1F448;</span></p>
+                    <div class="hide-on-large-only center-align">
+                        <a class="btn-floating red accent-1" href="https://github.com/melyxlin" class="material-icons"><i
+                        class="fab fa-github"></i></a>
+                        <a class="btn-floating red accent-1" href="https://www.linkedin.com/in/melyxlin/"><i
+                        class="fab fa-linkedin-in"></i></a>
+                        <a class="btn-floating red accent-1" href="https://twitter.com/momolin78"><i class="fab fa-twitter"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
 
 
         <div id="footer">
-            <p><a style="color: #FA8072; text-align:center">Built with &#x2764; by Melissa Lin </a> </p>
+            <p><a style="color: #FA8072;" class="center-align">Built with &#x2764; by Melissa Lin </a> </p>
         </div>
         </div>
 
-        <div id="social">
+        <div id="social" class="hide-on-med-and-down">
             <div class="fixed-action-btn">
-                <a><img src="images/apple-touch-icon.png" style="width: 60px; border-radius: 50%;"></a>
+                <a>
+                    <img src="images/apple-touch-icon.png" style="width: 60px; border-radius: 50%" class="moi">
+                </a>
                 </a>
                 <ul>
                     <li><a class="btn-floating red accent-1" href="https://github.com/melyxlin" class="material-icons"><i
@@ -297,7 +325,6 @@
                     </li>
                 </ul>
             </div>
-            <p style="color: black; bottom: 0; margin-left: 89%; position: fixed; font-family: 'Montserrat', sans-serif; font-size: 0.7rem;">hover over me!</p>
         </div>
 
         <script src="js/main.js"></script>
@@ -316,6 +343,11 @@
         <script>
             $(document).ready(function() {
                 $('.tabs').tabs();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.collapsible').collapsible();
             });
         </script>
 
