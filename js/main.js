@@ -1,5 +1,8 @@
 var myVar;
 var type;
+  
+  
+
 
 function myFunction() {
     myVar = setTimeout(showPage, 3500);
@@ -19,7 +22,6 @@ function showPage() {
 
     document.getElementById("footer").style.display = "block";
     document.getElementById("social").style.display = "block";
-
 }
 
 var i = 0;
