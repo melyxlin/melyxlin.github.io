@@ -14,6 +14,7 @@ function showPage() {
     document.getElementById("header").style.display = "block"
     document.getElementById("test").style.display = "block"
     document.getElementById("projects").style.display = "block"
+    document.getElementById("skills").style.display = "block"
     document.getElementById("landing").style.display = "block"
     document.getElementById("about").style.display = "block"
     document.getElementById("contact").style.display = "block";
