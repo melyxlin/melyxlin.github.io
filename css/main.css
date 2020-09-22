@@ -290,6 +290,7 @@ li.elem {
 .icon-caption {
     font-family: 'Montserrat', sans-serif;
     color: #8a8593;
+    font-size: x-large;
 }
 
 #about,
@@ -517,4 +518,18 @@ span.wave {
     .timeline .timeline-badge {
         left: 2.5%;
     }
+}
+
+.columncard {
+    float: left;
+    width: 50%;
+}
+
+
+/* Clear floats after the columns */
+
+.rowcard:after {
+    content: "";
+    display: table;
+    clear: both;
 }
