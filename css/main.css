@@ -176,6 +176,12 @@ a.soft-tag {
     color: #FA8072 !important;
 }
 
+.skills {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #FA8072 !important;
+}
+
 .proj-desc {
     font-family: 'Montserrat', sans-serif;
     color: #8a8593 !important;
