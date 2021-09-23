@@ -318,6 +318,24 @@ li.elem {
     animation-duration: 1s
 }
 
+#about,
+#work,
+#projects,
+#skills {
+    margin-top: 170px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    margin-top: 170px;
+    height: 450px;
+}
+
+#landing {
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
 #company {
     font-family: 'Montserrat', sans-serif;
     color: #FA8072;
