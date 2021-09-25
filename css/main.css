@@ -308,7 +308,7 @@ li.elem {
 #about,
 #work,
 #projects,
-#contact,
+#social-icons,
 #skills {
     display: none;
     position: relative;
@@ -324,11 +324,6 @@ li.elem {
 #skills {
     margin-top: 170px;
     margin-bottom: 20px;
-}
-
-#contact {
-    margin-top: 170px;
-    height: 450px;
 }
 
 #landing {

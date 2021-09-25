@@ -17,7 +17,6 @@ function showPage() {
     document.getElementById("skills").style.display = "block"
     document.getElementById("landing").style.display = "block"
     document.getElementById("about").style.display = "block"
-    document.getElementById("contact").style.display = "block";
 
     document.getElementById("work").style.display = "block";
 
@@ -34,6 +33,7 @@ function typeWriter() {
         document.getElementById("subheading").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
+        document.getElementById("social-icons").style.display = "block"
     }
 }
 
